@@ -1,0 +1,6 @@
+framework module Pods_MeMeBike {
+  umbrella header "Pods-MeMeBike-umbrella.h"
+
+  export *
+  module * { export * }
+}

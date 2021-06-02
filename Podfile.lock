@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (5.4.3)
+  - GoogleMaps (5.0.0):
+    - GoogleMaps/Maps (= 5.0.0)
+  - GoogleMaps/Base (5.0.0)
+  - GoogleMaps/Maps (5.0.0):
+    - GoogleMaps/Base
+  - MRCountryPicker (0.0.8)
+  - ProgressHUD (13.6)
+  - SideMenu (6.5.0)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - GoogleMaps
+  - MRCountryPicker
+  - ProgressHUD
+  - SideMenu
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - GoogleMaps
+    - MRCountryPicker
+    - ProgressHUD
+    - SideMenu
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  GoogleMaps: 600e5e69bdf7f4ed7cac4d6aa96c7ec08a5aa254
+  MRCountryPicker: 1aeea66de25cdef79dce3b91d8ad9db643c1cc01
+  ProgressHUD: 4bdaa0d2ddf676b23324b199f9facffb5c3a1620
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: b4a71f12e33c7078f2c61f188b2e603f4a6e828c
+
+COCOAPODS: 1.10.1

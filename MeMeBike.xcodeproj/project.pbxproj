@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2220C3EA7C0742D9748CD3D4 /* Pods_MeMeBike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E947C3C6761EFFCD10A9B0B8 /* Pods_MeMeBike.framework */; };
+		43001332264D1EAF00049F65 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43001331264D1EAF00049F65 /* HomeViewController.swift */; };
+		43001372264D72B600049F65 /* LeftSlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43001371264D72B600049F65 /* LeftSlideViewController.swift */; };
+		43001375264D753700049F65 /* LeftTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43001374264D753700049F65 /* LeftTableViewCell.swift */; };
+		4313B0B7264AF35400B5679D /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4313B0B6264AF35400B5679D /* OTPViewController.swift */; };
+		4318492A265AA03100F32296 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43184929265AA03100F32296 /* ContactUsViewController.swift */; };
+		431CB48126576FC3002094E0 /* Sidemenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431CB48026576FC3002094E0 /* Sidemenu.swift */; };
+		4328FB122657B3E900060EDA /* RidehistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4328FB112657B3E900060EDA /* RidehistoryViewController.swift */; };
+		4328FB152657B9DC00060EDA /* RidehistoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4328FB142657B9DC00060EDA /* RidehistoryCollectionViewCell.swift */; };
+		4328FB232657F51000060EDA /* MemeBikeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4328FB222657F51000060EDA /* MemeBikeDelegate.swift */; };
+		43525E7B26562C3200B52307 /* DepositViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43525E7A26562C3200B52307 /* DepositViewController.swift */; };
+		43525E88265649C000B52307 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43525E87265649C000B52307 /* ProfileViewController.swift */; };
+		435D26772664CD3500D8D382 /* DropDownTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435D26762664CD3500D8D382 /* DropDownTableViewCell.swift */; };
+		435FE8B22653B2A8002A3492 /* Identity Proof ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435FE8B12653B2A8002A3492 /* Identity Proof ViewController.swift */; };
+		439DC8C3265518800002BBB0 /* MetroStationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439DC8C2265518800002BBB0 /* MetroStationCollectionViewCell.swift */; };
+		720AEF6226391CA400D42A96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720AEF6126391CA400D42A96 /* AppDelegate.swift */; };
+		720AEF6426391CA400D42A96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720AEF6326391CA400D42A96 /* SceneDelegate.swift */; };
+		720AEF6626391CA400D42A96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720AEF6526391CA400D42A96 /* ViewController.swift */; };
+		720AEF6926391CA400D42A96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720AEF6726391CA400D42A96 /* Main.storyboard */; };
+		720AEF6B26391CA700D42A96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 720AEF6A26391CA700D42A96 /* Assets.xcassets */; };
+		720AEF6E26391CA700D42A96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720AEF6C26391CA700D42A96 /* LaunchScreen.storyboard */; };
+		729C51DC263A746C00CEB490 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729C51DB263A746C00CEB490 /* SignUpViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43001331264D1EAF00049F65 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		43001371264D72B600049F65 /* LeftSlideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSlideViewController.swift; sourceTree = "<group>"; };
+		43001374264D753700049F65 /* LeftTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftTableViewCell.swift; sourceTree = "<group>"; };
+		4313B0B6264AF35400B5679D /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		43184929265AA03100F32296 /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		431CB48026576FC3002094E0 /* Sidemenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sidemenu.swift; sourceTree = "<group>"; };
+		4328FB112657B3E900060EDA /* RidehistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidehistoryViewController.swift; sourceTree = "<group>"; };
+		4328FB142657B9DC00060EDA /* RidehistoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidehistoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		4328FB222657F51000060EDA /* MemeBikeDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MemeBikeDelegate.swift; path = ../../../MemeBikeDelegate.swift; sourceTree = "<group>"; };
+		43525E7A26562C3200B52307 /* DepositViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositViewController.swift; sourceTree = "<group>"; };
+		43525E87265649C000B52307 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		435D26762664CD3500D8D382 /* DropDownTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownTableViewCell.swift; sourceTree = "<group>"; };
+		435FE8B12653B2A8002A3492 /* Identity Proof ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Identity Proof ViewController.swift"; sourceTree = "<group>"; };
+		439DC8C2265518800002BBB0 /* MetroStationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroStationCollectionViewCell.swift; sourceTree = "<group>"; };
+		692B9A8E11C824E7DC21D0F6 /* Pods-MeMeBike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeMeBike.debug.xcconfig"; path = "Target Support Files/Pods-MeMeBike/Pods-MeMeBike.debug.xcconfig"; sourceTree = "<group>"; };
+		720AEF5E26391CA400D42A96 /* MeMeBike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeMeBike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		720AEF6126391CA400D42A96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		720AEF6326391CA400D42A96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		720AEF6526391CA400D42A96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		720AEF6826391CA400D42A96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		720AEF6A26391CA700D42A96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		720AEF6D26391CA700D42A96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		720AEF6F26391CA700D42A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		729C51DB263A746C00CEB490 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A90C7DF8C4B8800F16D5CFF6 /* Pods-MeMeBike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeMeBike.release.xcconfig"; path = "Target Support Files/Pods-MeMeBike/Pods-MeMeBike.release.xcconfig"; sourceTree = "<group>"; };
+		E947C3C6761EFFCD10A9B0B8 /* Pods_MeMeBike.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeMeBike.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		720AEF5B26391CA400D42A96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2220C3EA7C0742D9748CD3D4 /* Pods_MeMeBike.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		435D26792664FDF900D8D382 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				435D267B2664FE5100D8D382 /* Signup */,
+				435D26862665037900D8D382 /* OTP */,
+				435D267A2664FE3800D8D382 /* Login */,
+				435D267D2664FEF400D8D382 /* Home */,
+				435D267C2664FED900D8D382 /* Profile */,
+				435D26822665006C00D8D382 /* Deposit */,
+				435D267F2664FFB400D8D382 /* Contactus */,
+				435D26802664FFFB00D8D382 /* Ridehistory */,
+				435D26812665005800D8D382 /* Identity */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		435D267A2664FE3800D8D382 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				720AEF6526391CA400D42A96 /* ViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		435D267B2664FE5100D8D382 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				729C51DB263A746C00CEB490 /* SignUpViewController.swift */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		435D267C2664FED900D8D382 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				43525E87265649C000B52307 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		435D267D2664FEF400D8D382 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				43001331264D1EAF00049F65 /* HomeViewController.swift */,
+				439DC8C2265518800002BBB0 /* MetroStationCollectionViewCell.swift */,
+				435D26762664CD3500D8D382 /* DropDownTableViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		435D267E2664FF0F00D8D382 /* Sidemenu */ = {
+			isa = PBXGroup;
+			children = (
+				431CB48026576FC3002094E0 /* Sidemenu.swift */,
+				43001371264D72B600049F65 /* LeftSlideViewController.swift */,
+				43001374264D753700049F65 /* LeftTableViewCell.swift */,
+			);
+			path = Sidemenu;
+			sourceTree = "<group>";
+		};
+		435D267F2664FFB400D8D382 /* Contactus */ = {
+			isa = PBXGroup;
+			children = (
+				43184929265AA03100F32296 /* ContactUsViewController.swift */,
+				435D267E2664FF0F00D8D382 /* Sidemenu */,
+			);
+			path = Contactus;
+			sourceTree = "<group>";
+		};
+		435D26802664FFFB00D8D382 /* Ridehistory */ = {
+			isa = PBXGroup;
+			children = (
+				4328FB112657B3E900060EDA /* RidehistoryViewController.swift */,
+				4328FB142657B9DC00060EDA /* RidehistoryCollectionViewCell.swift */,
+			);
+			path = Ridehistory;
+			sourceTree = "<group>";
+		};
+		435D26812665005800D8D382 /* Identity */ = {
+			isa = PBXGroup;
+			children = (
+				435FE8B12653B2A8002A3492 /* Identity Proof ViewController.swift */,
+			);
+			path = Identity;
+			sourceTree = "<group>";
+		};
+		435D26822665006C00D8D382 /* Deposit */ = {
+			isa = PBXGroup;
+			children = (
+				43525E7A26562C3200B52307 /* DepositViewController.swift */,
+			);
+			path = Deposit;
+			sourceTree = "<group>";
+		};
+		435D26862665037900D8D382 /* OTP */ = {
+			isa = PBXGroup;
+			children = (
+				4313B0B6264AF35400B5679D /* OTPViewController.swift */,
+			);
+			path = OTP;
+			sourceTree = "<group>";
+		};
+		720AEF5526391CA300D42A96 = {
+			isa = PBXGroup;
+			children = (
+				720AEF6026391CA400D42A96 /* MeMeBike */,
+				720AEF5F26391CA400D42A96 /* Products */,
+				8291B20A2DF03F3057C7F9B9 /* Pods */,
+				89DA13997F27DA3223970EA3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		720AEF5F26391CA400D42A96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				720AEF5E26391CA400D42A96 /* MeMeBike.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		720AEF6026391CA400D42A96 /* MeMeBike */ = {
+			isa = PBXGroup;
+			children = (
+				720AEF6126391CA400D42A96 /* AppDelegate.swift */,
+				720AEF6326391CA400D42A96 /* SceneDelegate.swift */,
+				720AEF6726391CA400D42A96 /* Main.storyboard */,
+				435D26792664FDF900D8D382 /* Controller */,
+				4328FB222657F51000060EDA /* MemeBikeDelegate.swift */,
+				720AEF6A26391CA700D42A96 /* Assets.xcassets */,
+				720AEF6C26391CA700D42A96 /* LaunchScreen.storyboard */,
+				720AEF6F26391CA700D42A96 /* Info.plist */,
+			);
+			path = MeMeBike;
+			sourceTree = "<group>";
+		};
+		8291B20A2DF03F3057C7F9B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				692B9A8E11C824E7DC21D0F6 /* Pods-MeMeBike.debug.xcconfig */,
+				A90C7DF8C4B8800F16D5CFF6 /* Pods-MeMeBike.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		89DA13997F27DA3223970EA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E947C3C6761EFFCD10A9B0B8 /* Pods_MeMeBike.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		720AEF5D26391CA400D42A96 /* MeMeBike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 720AEF7226391CA700D42A96 /* Build configuration list for PBXNativeTarget "MeMeBike" */;
+			buildPhases = (
+				F680C9634ACD052FD19D60FE /* [CP] Check Pods Manifest.lock */,
+				720AEF5A26391CA400D42A96 /* Sources */,
+				720AEF5B26391CA400D42A96 /* Frameworks */,
+				720AEF5C26391CA400D42A96 /* Resources */,
+				C357FC45DAA1C8684714B6AC /* [CP] Embed Pods Frameworks */,
+				0CD102156457317616D7B4F6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeMeBike;
+			productName = MeMeBike;
+			productReference = 720AEF5E26391CA400D42A96 /* MeMeBike.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		720AEF5626391CA300D42A96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = MeMeWorldWide;
+				TargetAttributes = {
+					720AEF5D26391CA400D42A96 = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1220;
+					};
+				};
+			};
+			buildConfigurationList = 720AEF5926391CA300D42A96 /* Build configuration list for PBXProject "MeMeBike" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 720AEF5526391CA300D42A96;
+			productRefGroup = 720AEF5F26391CA400D42A96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				720AEF5D26391CA400D42A96 /* MeMeBike */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		720AEF5C26391CA400D42A96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				720AEF6E26391CA700D42A96 /* LaunchScreen.storyboard in Resources */,
+				720AEF6B26391CA700D42A96 /* Assets.xcassets in Resources */,
+				720AEF6926391CA400D42A96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CD102156457317616D7B4F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeMeBike/Pods-MeMeBike-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeMeBike/Pods-MeMeBike-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeMeBike/Pods-MeMeBike-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C357FC45DAA1C8684714B6AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeMeBike/Pods-MeMeBike-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeMeBike/Pods-MeMeBike-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeMeBike/Pods-MeMeBike-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F680C9634ACD052FD19D60FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeMeBike-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		720AEF5A26391CA400D42A96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43525E7B26562C3200B52307 /* DepositViewController.swift in Sources */,
+				4328FB122657B3E900060EDA /* RidehistoryViewController.swift in Sources */,
+				43001375264D753700049F65 /* LeftTableViewCell.swift in Sources */,
+				4313B0B7264AF35400B5679D /* OTPViewController.swift in Sources */,
+				435D26772664CD3500D8D382 /* DropDownTableViewCell.swift in Sources */,
+				720AEF6626391CA400D42A96 /* ViewController.swift in Sources */,
+				431CB48126576FC3002094E0 /* Sidemenu.swift in Sources */,
+				720AEF6226391CA400D42A96 /* AppDelegate.swift in Sources */,
+				43001372264D72B600049F65 /* LeftSlideViewController.swift in Sources */,
+				4318492A265AA03100F32296 /* ContactUsViewController.swift in Sources */,
+				43525E88265649C000B52307 /* ProfileViewController.swift in Sources */,
+				729C51DC263A746C00CEB490 /* SignUpViewController.swift in Sources */,
+				720AEF6426391CA400D42A96 /* SceneDelegate.swift in Sources */,
+				4328FB232657F51000060EDA /* MemeBikeDelegate.swift in Sources */,
+				439DC8C3265518800002BBB0 /* MetroStationCollectionViewCell.swift in Sources */,
+				4328FB152657B9DC00060EDA /* RidehistoryCollectionViewCell.swift in Sources */,
+				435FE8B22653B2A8002A3492 /* Identity Proof ViewController.swift in Sources */,
+				43001332264D1EAF00049F65 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		720AEF6726391CA400D42A96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				720AEF6826391CA400D42A96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		720AEF6C26391CA700D42A96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				720AEF6D26391CA700D42A96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		720AEF7026391CA700D42A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/lib";
+			};
+			name = Debug;
+		};
+		720AEF7126391CA700D42A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/lib";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		720AEF7326391CA700D42A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 692B9A8E11C824E7DC21D0F6 /* Pods-MeMeBike.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				EXCLUDED_ARCHS = "";
+				INFOPLIST_FILE = MeMeBike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MeMeWorldWide.com.MeMeBike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Debug;
+		};
+		720AEF7426391CA700D42A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A90C7DF8C4B8800F16D5CFF6 /* Pods-MeMeBike.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = MeMeBike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				NEW_SETTING = "";
+				"NEW_SETTING[sdk=iphonesimulator*]" = arm64;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MeMeWorldWide.com.MeMeBike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				"SWIFT_OPTIMIZATION_LEVEL[arch=*]" = "-O";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		720AEF5926391CA300D42A96 /* Build configuration list for PBXProject "MeMeBike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				720AEF7026391CA700D42A96 /* Debug */,
+				720AEF7126391CA700D42A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		720AEF7226391CA700D42A96 /* Build configuration list for PBXNativeTarget "MeMeBike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				720AEF7326391CA700D42A96 /* Debug */,
+				720AEF7426391CA700D42A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 720AEF5626391CA300D42A96 /* Project object */;
+}
